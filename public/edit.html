@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Article</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/scripts.js"></script>
+</head>
+<body class="edit-page">
+    <div class="container">
+        <h1>Edit Article</h1>
+        <div class="form-container">
+            <form method="POST" action="/edit/{{id}}">
+                <input type="text" name="title" placeholder="Title" required>
+                <input type="date" name="date" required>
+                <textarea name="content" placeholder="Content" required></textarea>
+                <button type="submit">Update</button>
+                <button class="back-button" onclick="window.location.href='/'" type="button">Back</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

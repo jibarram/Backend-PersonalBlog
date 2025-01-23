@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+}
+
+#login-button {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #004a99;
+}
+
+
+#logout-button {
+    position: static;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#login-button:hover {
+    background-color: #004a99;
+}
+
+.articles {
+    margin-top: 20px;
+}
+
+.article-link {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #0066cc;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.article-link:hover {
+    background-color: #f0f8ff;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #004a99;
+}
+
+.admin-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.admin-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.admin-buttons a:hover {
+    background-color: #004a99;
+}
+
+.article-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.article-date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-table th, .admin-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.admin-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.admin-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.admin-controls button {
+    padding: 5px 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-controls button:hover {
+    background-color: #004a99;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#auth-frame {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#auth-frame button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.article-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-container h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.article-container .article-date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.article-container .article-content {
+    line-height: 1.6;
+    font-size: 1em;
+    color: #333;
+}
